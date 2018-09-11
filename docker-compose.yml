@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  simpledockerexample:
+    image: ${DOCKER_REGISTRY}simpledockerexample
+    build:
+      context: .
+      dockerfile: SimpleDockerExample/Dockerfile
